@@ -21,10 +21,12 @@ function DateChallenge() {
     if (currentTime < 12) {
         greeting = "Good Morning";
         customStyle.color = "White";
-      } else if (currentTime < 18) {
+      } 
+      else if (currentTime < 18) {
         greeting = "Good Afternoon";
         customStyle.color = "Red";
-      } else {
+      }
+       else {
         greeting = "Good Night";
         customStyle.color = "Black";
       }
